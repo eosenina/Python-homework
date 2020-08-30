@@ -6,8 +6,8 @@ while True:
         if a > 0 and a < 10:
             result = a * 100 + a * 20 + a * 3
             print(f"n + nn + nnn = {result}")
+            break
         else:
             print('Ошибка ввода')
-        break
     else:
         print('Ошибка ввода')
